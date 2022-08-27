@@ -26,7 +26,7 @@
                 MessageBox.Show("La Nota 2 debe ser mayor o igual a 0 y menor o igual a 100", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             Else
                 promedio = CDbl(((nota1 + nota2) / 2))
-                mensaje = IIf((promedio >= 70), "Aprobado", "Reporbado")
+                mensaje = IIf((promedio >= 70), "Aprobado", "Reprobado")
                 txtPromedio.Text = promedio.ToString("00.00") + " %"
                 txtResultado.Text = mensaje
             End If
